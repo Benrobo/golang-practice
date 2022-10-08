@@ -12,6 +12,6 @@ func main() {
 
 }
 
-func log(...param interface{}) {
+func log(param ...interface{}) {
 	fmt.Println(param)
 }
