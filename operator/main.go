@@ -15,5 +15,5 @@ func main() {
 	fmt.Println(a > b)
 	fmt.Println(a >= b)
 	fmt.Println(a > b && a != b)
-
+	fmt.Println(a == b || a < b)
 }
