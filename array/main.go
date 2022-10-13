@@ -40,4 +40,5 @@ func main() {
 	// findind the length of an array using len()
 
 	fmt.Println(len(arr1))
+	fmt.Println(cap(arr1))
 }
