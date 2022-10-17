@@ -47,9 +47,9 @@ func main() {
 		}
 	*/
 	// the range keyword has access to both the value and index of an array element
-	// for idx, val := range fruits {
-	// 	fmt.Println(idx, fruits[idx], val)
-	// }
+	for idx, val := range fruits {
+		fmt.Println(idx, fruits[idx], val)
+	}
 
 	// Tip: To only show the value or the index, you can omit the other output using an underscore (_).
 
