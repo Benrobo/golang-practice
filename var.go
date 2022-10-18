@@ -10,7 +10,7 @@ import "fmt"
 // // 2. inferred type eg ( var a = "welcome" )
 // // or without the var keyword ( x := "welcome" )
 
-func main() {
+func var() {
 
 	var n1 string = "benrobo" // type is string
 	var n2 = "john"

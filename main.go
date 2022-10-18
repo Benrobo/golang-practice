@@ -6,9 +6,17 @@ import "fmt"
 
 func main() {
 
-	// fmt.Println("welcome")
-	var a = 45
+	var (
+		planet   = "venus"
+		distance = 261
+		orbital  = 224.701
+		hasLife  = false
+	)
 
-	// a, b = 34, "23"
-	fmt.Println(a)
+	// swiss army knife %v verb
+	fmt.Printf("Planet: %v\n", planet)
+	fmt.Printf("Distance: %v millions kms\n", distance)
+	fmt.Printf("Orbital Period: %v days\n", orbital)
+	fmt.Printf("Does %v have life? %v\n", planet, hasLife)
+	fmt.Printf("typeof %q %T\n", planet, planet)
 }
