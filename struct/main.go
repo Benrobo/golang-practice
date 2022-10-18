@@ -57,7 +57,6 @@ func main() {
 
 	// Print Pers2 info by calling a function
 	printPerson(p2)
-
 }
 
 func printPerson(pers Person) {
